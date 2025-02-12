@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Engineering Study Resources</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
+        <a id="logo" class="text-xl font-bold">aditya.in</a>
+        <div class="flex gap-2">
+            <input id="place" type="text" placeholder="Enter 1st, 2nd, or 3rd" class="p-2 rounded border text-black">
+            <button id="but" class="bg-yellow-500 px-4 py-2 rounded text-white font-semibold hover:bg-yellow-600">Search</button>
+        </div>
+    </header>
+
+    <div class="p-6 max-w-3xl mx-auto">
+        <p class="text-lg">
+            This website is for B.Tech students in Computer Science who want to improve their CGPA. 
+            During exams, we often study last-minute and search for quick video explanations. 
+            Here’s a list of helpful one-shot videos.
+        </p>
+    </div>
+
+    
+    <div id="year1" class="bg-white p-6 shadow-md rounded-md max-w-3xl mx-auto my-6 hover-3d">
+        <h1 class="text-2xl font-bold text-blue-600">1st Year</h1>
+        <div class="grid grid-cols-2 gap-4 mt-4">
+            <a href="https://youtube.com/playlist?list=PL-vEH_IPWrhB6SE1RV7Yp_hNL3dJPK148" class="text-blue-500 hover:underline">Ece</a>
+            <a href="https://youtube.com/playlist?list=PL-vEH_IPWrhA_ZY8FH4Tr6L_zi9uPgVRc" class="text-blue-500 hover:underline">Maths 1</a>
+            <a href="https://youtu.be/6szzDz6xO-s" class="text-blue-500 hover:underline">BME</a>
+            <a href="https://youtube.com/playlist?list=PL-vEH_IPWrhBKXPlljxAHMCkdw7Lb_Qbn" class="text-blue-500 hover:underline">Chemistry</a>
+            <a href="https://youtu.be/3V-NoXp_CGs" class="text-blue-500 hover:underline">Environmental Science</a>
+            <a href="https://youtube.com/playlist?list=PLkojphh8hBnah-09sz2BzQo4PpjKmZeii" class="text-blue-500 hover:underline">Physics</a>
+            <a href="https://www.youtube.com/watch?v=1GyQd6BASHE" class="text-blue-500 hover:underline">Maths 2</a>
+            <a href="https://www.youtube.com/watch?v=5R0TsUH5YeY" class="text-blue-500 hover:underline">BEE</a>
+            <a href="https://www.youtube.com/watch?v=Pd06q4ReLUw" class="text-blue-500 hover:underline">PPS</a>
+        </div>
+    </div>
+
+    <div id="year2" class="bg-white p-6 shadow-md rounded-md max-w-3xl mx-auto my-6 hover-3d">
+        <h1 class="text-2xl font-bold text-blue-600">2nd Year</h1>
+        <div class="grid grid-cols-2 gap-4 mt-4">
+            <a href="https://youtu.be/nezosHntjPg" class="text-blue-500 hover:underline">COA</a>
+            <a href="https://youtu.be/h4sd7wRcyR0" class="text-blue-500 hover:underline">Discrete Maths</a>
+            <a href="https://youtu.be/lH0sYax5Yg0" class="text-blue-500 hover:underline">DSD</a>
+            <a href="https://youtube.com/playlist?list=PLV8vIYTIdSnbL_fSaqiYpPh-KwNCavjIr" class="text-blue-500 hover:underline">OOPDP</a>
+            <a href="https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA" class="text-blue-500 hover:underline">DS</a>
+            <a href="https://youtube.com/playlist?list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy" class="text-blue-500 hover:underline">DBMS</a>
+            <a href="https://youtube.com/playlist?list=PLG9aCp4uE-s0Wx6ULfjttryYPgvfXhetP" class="text-blue-500 hover:underline">Algorithm</a>
+            <a href="https://youtube.com/playlist?list=PLBvTTYUOHEmeYjzc3qrXrX5O6VQhgGEA-" class="text-blue-500 hover:underline">UHV</a>
+        </div>
+    </div>
+
+
+    <div id="year3" class="bg-white p-6 shadow-md rounded-md max-w-3xl mx-auto my-6 hover-3d">
+        <h1 class="text-2xl font-bold text-blue-600">3rd Year</h1>
+        <p class="text-gray-700 mt-2">More content coming soon...</p>
+    </div>
+
+
+    <footer class="bg-gray-900 text-white p-6 text-center">
+        <p>Made with &hearts; by ADITYA</p>
+        <p>&#169; 2023-2025, ADITYA.com, Inc. or its affiliates</p>
+        <div class="flex justify-center gap-6 mt-4">
+            <a href="https://github.com/adityaharshu06" class="text-white flex items-center gap-2 hover:text-gray-400">
+                <i class="fab fa-github text-2xl"></i> GitHub
+            </a>
+            <a href="https://www.instagram.com/adityaharshu06" class="text-white flex items-center gap-2 hover:text-gray-400">
+                <i class="fab fa-instagram text-2xl"></i> Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/adityaharshu/" class="text-white flex items-center gap-2 hover:text-gray-400">
+                <i class="fab fa-linkedin text-2xl"></i> LinkedIn
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
